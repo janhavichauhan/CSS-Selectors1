@@ -1,0 +1,47 @@
+/* Element Selector */
+h1 {
+  background-color: red;
+  color: aliceblue;
+}
+
+/* Descendant Selector */
+header p {
+  color: rgb(231, 84, 109);
+}
+
+/* Element Selector */
+h2 {
+  color: red;
+}
+
+/* Class Selector */
+.hobby-image {
+  border-radius: 20px;
+}
+
+/* Class Selector */
+.other-hobby {
+  color: blue;
+}
+
+/* ID Selector */
+#main-heading {
+  font-size: 32px;
+}
+
+/* Attribute Selector */
+img[alt="Dancing girl"] {
+  border: 2px solid black;
+}
+
+/* Pseudoclass */
+.other-hobby:hover {
+  background-color: lightgray;
+}
+
+/* Pseudoelement */
+.intro::first-letter {
+  font-size: 150%;
+}
+
+
